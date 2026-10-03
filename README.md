@@ -170,6 +170,10 @@ Three checks one station settles in an afternoon
   3. Bring the endpoint back and watch the order the records arrive in.
 ```
 
+## The same finding, written up
+
+Why returning `false` from `sendAlarm` loses the alarm while throwing retries it - and what the recovery machinery does with the record either way - is also written up as a page: <https://plantroomlabs.com/tools/alarm-recipient-scan/>. It carries a captured run of this program, the download with its byte count and SHA-256, the Niagara version the bytecode was read on beside the version of the JACE it was checked against, and the note on alarm routing that puts it next to the queue behaviour.
+
 ## Licence
 
 MIT. Written by Usama Iqbal at [Plantroom Labs](https://plantroomlabs.com).
