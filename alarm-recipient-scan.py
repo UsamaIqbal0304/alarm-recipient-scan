@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Usama Iqbal (Plantroom Labs)
 """What a Niagara station does with an alarm when the far end is down.
 
     tools/alarm-recipient-scan.py [NIAGARA_HOME]
